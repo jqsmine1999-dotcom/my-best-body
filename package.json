@@ -10,7 +10,8 @@
     "deploy": "wrangler d1 migrations apply my-best-body-db --remote && wrangler deploy",
     "icons": "node scripts/make-icons.mjs",
     "demo": "node scripts/record-demo.mjs",
-    "ai-eval": "node scripts/ai-eval.mjs"
+    "ai-eval": "node scripts/ai-eval.mjs",
+    "test:prod": "playwright test -c playwright.prod.config.ts"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20261031.1",
