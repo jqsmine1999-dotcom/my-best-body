@@ -67,6 +67,7 @@ npm run dev                              # http://localhost:8787
 ```bash
 npm test                                 # WebKit(iPhone) と Chromium(Android) で全件実行
 npm run ai-eval                          # 本番 Workers AI で、テストとは別の入力の解析結果を表示
+npm run test:prod                        # 本番 URL の公開ページ・認証設定・開発用機能の無効化を確認
 ```
 
 ### アイコン・ロゴの再生成
