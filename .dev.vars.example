@@ -1,0 +1,5 @@
+# ローカル専用。本番では設定しないこと
+DEV_LOGIN=1
+AI_DISABLED=1
+# 通知を試す場合のみ（npx wrangler secret put と同じ JWK）
+# VAPID_PRIVATE_JWK={"kty":"EC","crv":"P-256","x":"...","y":"...","d":"..."}
